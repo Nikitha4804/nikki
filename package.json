@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Social Media Management Platform",
   "scripts": {
-    "start": "cd backend && node server.js",
+    "start": "node server.js",
     "server": "nodemon backend/server.js",
     "client": "cd frontend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
