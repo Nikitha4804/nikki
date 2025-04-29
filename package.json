@@ -2,7 +2,7 @@
   "name": "social-media-manager",
   "version": "1.0.0",
   "description": "Social Media Management Platform",
-  "main": "backend/server.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
