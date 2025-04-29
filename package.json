@@ -2,10 +2,10 @@
   "name": "social-media-manager",
   "version": "1.0.0",
   "description": "Social Media Management Platform",
-  "main": "server.js",
+  "main": "backend/server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
     "client": "cd frontend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "install-client": "cd frontend && npm install",
